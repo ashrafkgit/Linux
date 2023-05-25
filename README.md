@@ -12,7 +12,8 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 
 
 
-Introduction
+
+
 
 
 What is Linux?
@@ -29,6 +30,8 @@ Birth 1991 ( Linus Tornvalds), First release - 1994, version 1.0
 
 
 **How does Linux work?**
+
+
 Think about an OS like a car engine. An engine can run on its own, but it becomes a functional car when it’s connected with a transmission, axles, and wheels. 
 
 Without the engine running properly, the rest of the car won’t work.
