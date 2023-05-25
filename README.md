@@ -12,10 +12,10 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 
 
 
-**Introduction **
+Introduction
 
 
-**What is Linux? **
+What is Linux?
 
 
 Linux® is an open source operating system (OS). An operating system is the software that directly manages a system’s hardware and resources, like CPU, memory, and storage. 
