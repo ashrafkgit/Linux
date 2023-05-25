@@ -22,7 +22,7 @@ Every Linux-based OS involves the Linux kernel—which manages hardware resource
 
 **Heart of the OS**: Kernal , core of the OS.
 
-Organizations can also choose to run their Linux OS on a Linux server.
+# Organizations can also choose to run their Linux OS on a Linux server.
 
 The OS includes some common core components, like the GNU tools, among others. These tools give the user a way to manage the resources provided by the kernel, install additional software, configure performance and security settings, and more. All of these tools bundled together make up the functional operating system. Because Linux is an open source OS, combinations of software can vary between Linux distributions.
 
