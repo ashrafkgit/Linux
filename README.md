@@ -1,7 +1,5 @@
 # Learning Linux
 
-![Hacking GIF - Find   Share on GIPHY (1)](https://github.com/ashrafkgit/Linux/assets/134578702/58393254-8ac9-4493-a78d-5b4fbb7e8df0)
-
 
 
 Learn Linux with guided step by step using a logical and systematic approach.
@@ -10,10 +8,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 
 
 
-
-
-
-
+![Learn Linux Bootcamp](https://github.com/ashrafkgit/Linux/assets/134578702/da7bb4fa-b6a1-4102-a01f-53362d76154d)
 
 
 **What is Linux?**
