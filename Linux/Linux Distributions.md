@@ -13,7 +13,10 @@ Most famous or commonly used - Redhat Enterprise Version and Ubuntu
 Derivative of Redhat - centOS ( free version) 
 
 https://distrowatch.com/ 
+
 https://www.virtualbox.org/wiki/Downloads 
+
 https://www.linuxtrainingacademy.com/vdi/
+
 https://www.gnu.org/gnu/linux-and-gnu.html
 
