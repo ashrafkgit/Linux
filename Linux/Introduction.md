@@ -11,7 +11,7 @@ Birth 1991 ( Linus Tornvalds), First release - 1994, version 1.0
 
 
 
-### **How does Linux work?**
+## **How does Linux work?**
 
 
 Think about an OS like a car engine. An engine can run on its own, but it becomes a functional car when it’s connected with a transmission, axles, and wheels. 
@@ -28,7 +28,7 @@ The OS includes some common core components, like the GNU tools, among others. T
 
  
  
-The Linux operating system comprises several different pieces:
+## The Linux operating system comprises several different pieces:
 
 _Bootloader_ –  The software that manages the boot process of your computer. For most users, this will simply be a splash screen that pops up and eventually goes away to boot into the operating system.
 
