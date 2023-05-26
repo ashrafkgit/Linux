@@ -20,3 +20,7 @@ https://www.linuxtrainingacademy.com/vdi/
 
 https://www.gnu.org/gnu/linux-and-gnu.html
 
+Red Hat Enterprise Linux Release Dates
+https://access.redhat.com/articles/3078
+
+
