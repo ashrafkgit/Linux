@@ -20,7 +20,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 [PlDb]: <./Linux/Linux Boot Process.md>
 [PlDc]: <./Linux/Linux Distributions.md>
 [PlDd]: <./Linux/Linux Directory Structure.md>
-[PlDd]: <./Linux/Linux Filesystem.md>
+[PlDe]: <./Linux/Linux Filesystem.md>
 
 ![Learn Linux Bootcamp](https://github.com/ashrafkgit/Linux/assets/134578702/da7bb4fa-b6a1-4102-a01f-53362d76154d)
 
