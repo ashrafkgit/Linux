@@ -1,3 +1,7 @@
+##
+## Linux Distributions 
+##
+
 It is Linux Kernel and collections of specific software's that together creates Operating System ( you can say it as - flavors of Linux) 
 
 Microsoft Windows is an Operating System (OS), so is GNU/Linux, often incorrectly referred to as only Linux. Windows OS has versions (Windows 2000, XP,Vista, 7, 8, 10) but GNU/Linux OS has distributions which in turn have versions (typically a number). 
