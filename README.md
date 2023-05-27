@@ -13,11 +13,13 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 | 1 | [Introduction][PlDa] |
 | 2 | [Linux Boot Process][PlDb] |
 | 3 | [Linux Distributions][PlDc] |
-| 4 | [Linux Directory Structure][PlDc] |
+| 4 | [Linux Directory Structure][PlDd] |
+| 5 | [Linux Filesystem][PlDe] |
 
 [PlDa]: <./Linux/Introduction.md>
 [PlDb]: <./Linux/Linux Boot Process.md>
-[PlDc]: <./Linux/Linux Directory Structure.md>
+[PlDc]: <./Linux/Linux Distributions.md>
+[PlDd]: <./Linux/Linux Filesystem.md>
 
 ![Learn Linux Bootcamp](https://github.com/ashrafkgit/Linux/assets/134578702/da7bb4fa-b6a1-4102-a01f-53362d76154d)
 
