@@ -16,7 +16,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 
 [PlDa]: <./Linux/Introduction.md>
 [PlDb]: <./Linux/Linux Boot Process.md>
-[PlDc]: <./Rancher/Linux Distributions.md>
+[PlDc]: <./Linux/Linux Distributions.md>
 
 ![Learn Linux Bootcamp](https://github.com/ashrafkgit/Linux/assets/134578702/da7bb4fa-b6a1-4102-a01f-53362d76154d)
 
