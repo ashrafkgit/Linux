@@ -1,33 +1,18 @@
-**Linux Directory Structure**
-
-Tuesday, June 19, 2018
-
-3:20 PM
-
- 
+## Linux Directory Structure
 
 The File System Hierarchy - location of different components of the Operating System
 
- 
-
-<https://www.thegeekstuff.com/2010/09/linux-file-system-structure>
-
- 
-
-Root "/"
+**Root "/"**
 
  
 
 Hierarchy of the Linux starts from root directory.
 
- 
+ ![image](https://github.com/ashrafkgit/Linux/assets/134578702/57d5c4d6-05f8-495e-9758-000963cff684)
 
-<img src="media/image1.png" style="width:6in;height:8.38194in" alt="[bin Isbin letc [dev [proc [var /tmp lusr [home [boot [lib [opt /mnt [media /srv User Binaries System Binaries Configuration Files Device Files Process Information Variable Files Temporary Files the eekstuff.com User Programs Home Directories Boot Loader Files System Libraries Optional add-on Apps Mount Directory Removable Devices Service Data " />
 
- 
 
  
-
 1\. / – Root
 
 -   Every single file and directory starts from the root directory.
@@ -36,7 +21,7 @@ Hierarchy of the Linux starts from root directory.
 
 -   Please note that /root is root user’s home directory, which is not same as /.
 
->  
+  
 
 2\. /bin – User Binaries
 
@@ -48,7 +33,7 @@ Hierarchy of the Linux starts from root directory.
 
 -   For example: ps, ls, ping, grep, cp.
 
->  
+  
 
 3\. /sbin – System Binaries
 
@@ -58,7 +43,7 @@ Hierarchy of the Linux starts from root directory.
 
 -   For example: iptables, reboot, fdisk, ifconfig, swapon
 
->  
+  
 
 4\. /etc – Configuration Files
 
@@ -68,7 +53,7 @@ Hierarchy of the Linux starts from root directory.
 
 -   For example: /etc/resolv.conf, /etc/logrotate.conf
 
->  
+  
 
 5\. /dev – Device Files
 
@@ -181,6 +166,23 @@ Hierarchy of the Linux starts from root directory.
 -   Contains server specific services related data.
 
 -   For example, /srv/cvs contains CVS related data.
+
+
+
+
+
+
+
+
+
+## More details on the linux directories 
+
+
+
+
+
+![ed8a8d94c2cfe8b5e44baf343800e74c](https://github.com/ashrafkgit/Linux/assets/134578702/4ef195d8-c3e9-4836-8bb6-b2267959689a)
+
 
  
 
