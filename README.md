@@ -11,12 +11,12 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 | Serial No | Document Link |
 | ------ | ------ |
 | 1 | [Introduction][PlDa] |
-| 2 | [RKE Concepts][PlDb] |
-| 3 | [Rancher-vs-RKE][PlDc]
+| 2 | [Linux Boot Process][PlDb] |
+| 3 | [Linux Distributions][PlDc]
 
-[PlDa]: <./Rancher/Introduction.md>
-[PlDb]: <./Rancher/RKE Concepts.md>
-[PlDc]: <./Rancher/Rancher-vs-RKE.md>
+[PlDa]: <./Linux/Introduction.md>
+[PlDb]: <./Linux/Linux Boot Process.md>
+[PlDc]: <./Rancher/Linux Distributions.md>
 
 ![Learn Linux Bootcamp](https://github.com/ashrafkgit/Linux/assets/134578702/da7bb4fa-b6a1-4102-a01f-53362d76154d)
 
