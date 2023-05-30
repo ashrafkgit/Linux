@@ -154,7 +154,7 @@ You can omit the ./ because it is already implied
 
 - ```ls -a```: This will show all the files (-a == all files) in your current directory, including hidden files
 
-- ```ls -l```: Long listing of all files in the directory and some important information.
+- ```ls -l```: Long listing of all files in the directory and some important information details permissions, owner, size, last modified date and name of the file
 
 - ```ls -t```: Sort files by modification date
 
@@ -168,7 +168,13 @@ You can omit the ./ because it is already implied
 
 - ```ls -R```: Show current directory content plus any children/sub directory content as well
 
-- ```ls -Ra```: Show current directory content plus any children/sub directory content as well + including hidden files
+- ```ls -Ra```: Show current directory content plus any children/sub directory content as well + including hidden files'
+
+-  ```ls -F```: list files types
+
+#
+_Note: Avoid using white space for file names ( such files can be searched by single or double quotes with ls command)_
+#
 
 
 ## Touch Command (Create a file)
