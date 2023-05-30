@@ -600,6 +600,25 @@ Special modes: setuid, setgid, Sticky
 * `export $PATH=$PATH:/newpath`
   * the keyword `export` guarantees that if our current process spins child processes, it will also export this `env` var to the children processes.
 
+##
+Notes:
+Env variables has storage space, name and a value 
+
+View all env variables command: printenv
+
+echo $TZ --> View env Variable
+
+printenv <variable_name> result of the output will give its value 
+
+unset <variable_name> TZ  ---->  only affects the current running sessions, an no longer valid across login sessions.
+
+Export VAR="value" 
+Export TZ="US/PACIFIC" 
+
+``` bash
+$  cat  ~/.bash_profile 
+```
+Persisting environment variable. 
 
 	
 	
