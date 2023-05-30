@@ -565,3 +565,57 @@ Special modes: setuid, setgid, Sticky
   * the keyword `export` guarantees that if our current process spins child processes, it will also export this `env` var to the children processes.
 
 
+	
+	
+
+## Create archives of the files.
+	
+	
+
+c Create a tar archive.
+x Extract files from the archive.
+t Display the table of contents (list).
+v Be verbose.
+z Use compression.
+f file Use this file
+
+tar - cxtv <file name> ( create, extract, list, verbose)
+taf -f <file name that you are working with>
+
+gzip Compress files.
+gunzip Uncompress files.
+
+
+_List contents of tar file _
+	
+tar –tzf documents.tar.gz
+
+_Create compress tar file _
+	
+tar -czf filename.tar filename
+Example: tar -czf /jail/repository/node1.raid.tgz /var/log/hp/platform/raid/p1228*
+
+_Extract .tar/.gz file_
+tar –xvzf documents.tar.gz
+	
+_To instruct tar to put the extracted unzipped files into a specific directory, enter_
+	
+tar –xvzf documents.tar.gz –C /home/user/destination
+	
+	
+## Transferring files
+	
+SCP - secure copy
+
+SCP source destination 
+
+
+scp /file/to/send username@remote:/where/to/put
+scp  <filename> host:/directory
+scp </path/filename> nodeX:</path> 
+
+scp username@source:/location/to/file username@destination:/where/to/put    Between two servers
+
+
+	
+	
