@@ -567,24 +567,25 @@ Special modes: setuid, setgid, Sticky
 
 	
 	
-
-## Create archives of the files.
-	
+##
+## **Create archives of the files**
+##	
 	
 
 c Create a tar archive.
+
 x Extract files from the archive.
+
 t Display the table of contents (list).
+
 v Be verbose.
+
 z Use compression.
+
 f file Use this file
 
 tar - cxtv <file name> ( create, extract, list, verbose)
 taf -f <file name that you are working with>
-
-gzip Compress files.
-gunzip Uncompress files.
-
 
 _List contents of tar file _
 	
@@ -601,9 +602,14 @@ tar –xvzf documents.tar.gz
 _To instruct tar to put the extracted unzipped files into a specific directory, enter_
 	
 tar –xvzf documents.tar.gz –C /home/user/destination
+
 	
+gzip Compress files.
+gunzip Uncompress files.
 	
+##
 ## Transferring files
+##
 	
 SCP - secure copy
 
