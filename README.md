@@ -19,6 +19,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 | 5 | [Linux Filesystem][PlDe] |
 | 6 | [Linux Shell][PlDf] |
 | 7 | [Command Line][PlDg] |
+| 8 | [AWK tool][PlDh] |
 
 [PlDa]: <./Linux/Introduction.md>
 [PlDb]: <./Linux/Linux Boot Process.md>
@@ -27,6 +28,8 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 [PlDe]: <./Linux/Linux Filesystem.md>
 [PlDf]: <./Linux/Linux Shell.md>
 [PlDg]: <./Linux/Command Line.md>
+[PlDh]: <./Linux/Docs/awk.pdf>
+
 
 
 
