@@ -323,6 +323,7 @@ _Note: Avoid using white space for file names ( such files can be searched by si
   - ```tac file```: Shows the content of file, but reversed
   - ```head -n 20 file```: Show first 20 lines of file
   - ```tail -n 20 file```: Show last 20 lines of file
+  - ```more file```      : Browse through a text file
 
 
 ## WC (word count) Command
@@ -478,7 +479,9 @@ _Note: Avoid using white space for file names ( such files can be searched by si
 * `sudo login danielmapar`
   * `cat /etc/passwd | grep "^danielmapar"`
 
-* ![permissions](./images/permissions.png)
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/d5f860d3-3a21-4847-b960-7eb9b3069106)
+
+
   * user = file owner
   * group = the group of the file owner
   * others = other users / groups
@@ -491,8 +494,45 @@ _Note: Avoid using white space for file names ( such files can be searched by si
   * each number represents a sequence of 3 bits. In the case of 7 it represents 111 (read, write and execute). Another example is 5 (read, dont write, execute).
     * In this case, 7 changes the `user` permissions (`rwx`), the second and third numbers (5's) will change the `group` and `other` permissions respectively.
 
-  * Anothe way to achieve this (`755`) is by running: `chmod u=rwx,g=rw,o=rw file`
+  * Another way to achieve this (`755`) is by running: `chmod u=rwx,g=rw,o=rw file`
 
+	Permissions on file and directories is different.
+	
+	For files: read ( allows a file to be read), write ( allow a file to be modified), and execute ( allows a file to be executed) 
+	For directories : read ( allows the contents of the directory to be read), write ( allows entries to be modified), and execute ( allows access to the contents and metadata for entries)
+	
+	Permissions are applied to the categories like user (u), group (g), others (o), and All (a) 
+	Permission on the directory impact the permission of the files inside the directory 
+	Every user will be part of at least one group and can be part of multiple groups. 
+	Groups are used to modified users.
+	
+	Command : group ( displays user groups) 
+	Command to change group : chgrp
+  
+  
+ Commands to change permissions:
+ > chmod 
+ 
+ > ugoa
+ 
+ > +-= 
+ 
+ > rwx
+
+
+_OCTO MODE PERMISSIONS_: Order of permission is User, Group and Other for every octal value.
+
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/8e59c7e2-a1fc-429d-a6ed-bc624d742bfc)
+
+#
+Whenever a file is created the default mask for permissions is set to 777 for directories and 666 for files, if no mask is used during creation.
+	
+umask -S ( subracting permission) 
+	
+Special modes: setuid, setgid, Sticky
+#  
+
+  
 ## Environment Variables and RC Files
 
 * `echo $USER`
