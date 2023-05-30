@@ -18,6 +18,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 | 4 | [Linux Directory Structure][PlDd] |
 | 5 | [Linux Filesystem][PlDe] |
 | 6 | [Linux Shell][PlDf] |
+| 7 | [Command Line][PlDg] |
 
 [PlDa]: <./Linux/Introduction.md>
 [PlDb]: <./Linux/Linux Boot Process.md>
@@ -25,6 +26,7 @@ Understand the fundamentals concepts, commands, or jargons of the Linux operatin
 [PlDd]: <./Linux/Linux Directory Structure.md>
 [PlDe]: <./Linux/Linux Filesystem.md>
 [PlDf]: <./Linux/Linux Shell.md>
+[PlDg]: <./Linux/Command Line.md>
 
 
 
