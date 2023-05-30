@@ -17,6 +17,42 @@ The command line typically presents you with a prompt. As you type, it will be d
 - ```clear```: clear console text
 - ```exit```: exits de terminal
 
+
+## Uname Command
+
+The uname or unix name command will print detailed information about your Linux system and hardware. This includes the machine name, operating system, and kernel. To run this command, simply enter uname into your CLI.
+
+Here’s the basic syntax:
+
+uname [option]
+
+These are the acceptable options to use:
+
+-a prints all the system information.
+
+-s prints the kernel name.
+
+-n prints the system’s node hostname.
+
+
+## Hostname command
+
+Run the hostname command to know the system’s hostname. You can execute it with or without an option. Here’s the general syntax:
+
+hostname [option]
+
+There are many optional flags to use, including:
+
+-a or –alias displays the hostname’s alias.
+
+-A or –all-fqdns displays the machine’s Fully Qualified Domain Name (FQDN).
+
+-i or –ip-address displays the machine’s IP address.
+
+For example, enter the following command to know your computer’s IP address:
+
+hostname -i
+
 ## Navigate Directories
 
 ### Linux File System Tree:
@@ -626,6 +662,40 @@ scp </path/filename> nodeX:</path>
 scp username@source:/location/to/file username@destination:/where/to/put    Between two servers
 
 ##
-##
 	
+## wget command
+The Linux command line lets you download files from the internet using the wget command. It works in the background without hindering other running processes.
+
+The wget command retrieves files using HTTP, HTTPS, and FTP protocols. It can perform recursive downloads, which transfer website parts by following directory structures and links, creating local versions of the web pages.
+
+To use it, enter the following command:
+
+wget [option] [url]
+
+For example, enter the following command to download the latest version of WordPress:
+
+wget https://wordpress.org/latest.zip
+
+##
+
+## apt-get command
+
+
+apt-get is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. It lets you retrieve information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies.
+
+Running the apt-get command requires you to use sudo or root privileges.
+
+Here’s the main syntax:
+
+apt-get [options] (command)
+
+These are the most common commands you can add to apt-get:
+
+**update** synchronizes the package files from their sources.
+**upgrade** installs the latest version of all installed packages.
+**check** updates the package cache and checks broken dependencies.
+
+##
+##
+
 	
