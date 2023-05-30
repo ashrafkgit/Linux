@@ -77,7 +77,18 @@ You can omit the ./ because it is already implied
 
 - **[DOES NOT WORK]** ```ls -```: should display you the content of your previous working directory
 
-![Screenshot](./images/LS%20-L%20OUTPUT.png)
+#
+.  _This directory_
+
+
+.. _Parent directory_
+
+#
+
+- For example ls -1 file1.txt can have the following output
+
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/da880cfa-5472-44dd-8937-2f3bab1a9a65)
+
 
 ## Linux Links
 
@@ -105,7 +116,7 @@ You can omit the ./ because it is already implied
 - In case the original file gets deleted, the soft link will no longer work
 - You can create soft links for directories
 
-![Screenshot](./images/Linux%20Soft%20Links.png)
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/2bb248e8-8352-4fd3-86ac-6e49bb4555b7)
 
 ### Hard Link
 - Different name of the same file
@@ -117,15 +128,15 @@ You can omit the ./ because it is already implied
 - In case I delete the original file, the hard link file will still work
 - **Be careful**: You should not create hard links for directories. Normally they are not even allowed because they break the file system structure.
 
-![Screenshot](./images/Linux%20Hard%20Links.png)
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/2cb6dcf6-9884-46ca-a714-6f890dd9d185)
 
 ### Commands
 
 - ```ls -i```: show inode id of files
 
 - ```ls -l```: show files information (size in bytes, permission, etc.)
-  * Folders should start with the letter `d` 
-  * ![ls-a-folders](./images/ls-a-folders.png)
+  _Folders should start with the letter_ `d` 
+  ![image](https://github.com/ashrafkgit/Linux/assets/134578702/d5d9ada8-583f-420e-b3aa-3445784c6c2a)
 
 - ```ln```: link
 
@@ -177,7 +188,7 @@ You can omit the ./ because it is already implied
   - ```touch newFile```: this will update the file timestamp and keep the content
 
 
-![Screenshot](./images/Using%20Touch%20to%20Update%20Timestamp.png)
+![image](https://github.com/ashrafkgit/Linux/assets/134578702/c69234e7-5fd6-4a66-8a30-4f1b194ce653)
 
 ## MKDIR (Make directory) and RMDIR (Remove directory) Commands
 
