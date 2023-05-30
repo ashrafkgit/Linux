@@ -297,6 +297,20 @@ _Note: Avoid using white space for file names ( such files can be searched by si
 
   - ```file LS -L OUTPUT.png```: LS -L OUTPUT.png: PNG image data, 1968 x 488, 8-bit/color RGBA, non-interlaced
 
+
+## Finding Files and Directories
+
+find command 
+
+find [ path ] [ expression ]
+
+find -name pattern  ( finds files and directories) 
+
+find -iname pattern ( ignore case ) 
+
+find / -name <filname>
+
+
 ## Command Line History
 
   - ```history```: Show all the commands executed in the cmd
