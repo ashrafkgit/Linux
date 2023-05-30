@@ -585,15 +585,17 @@ z Use compression.
 f file Use this file
 
 tar - cxtv <file name> ( create, extract, list, verbose)
-taf -f <file name that you are working with>
 
-_List contents of tar file _
+tar -f <file name that you are working with>
+
+_List contents of tar file_
 	
 tar –tzf documents.tar.gz
 
-_Create compress tar file _
+_Create compress tar file_
 	
 tar -czf filename.tar filename
+
 Example: tar -czf /jail/repository/node1.raid.tgz /var/log/hp/platform/raid/p1228*
 
 _Extract .tar/.gz file_
@@ -622,6 +624,7 @@ scp </path/filename> nodeX:</path>
 
 scp username@source:/location/to/file username@destination:/where/to/put    Between two servers
 
-
+##
+##
 	
 	
