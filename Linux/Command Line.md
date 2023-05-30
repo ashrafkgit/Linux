@@ -599,6 +599,7 @@ tar -czf filename.tar filename
 Example: tar -czf /jail/repository/node1.raid.tgz /var/log/hp/platform/raid/p1228*
 
 _Extract .tar/.gz file_
+.
 tar –xvzf documents.tar.gz
 	
 _To instruct tar to put the extracted unzipped files into a specific directory, enter_
